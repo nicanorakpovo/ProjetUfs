@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+
+/*Le titre du navbar : The navbar title*/
+
+.title_navbar {
+
+  width: 265px;
+  height: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 20px;
+
+  color: #000000;
+}
+
+/*Le bouton de contact : The contact button*/
+
+.btn_contact {
+
+  width: 56px;
+  height: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  width: 112px;
+  height: 38px;
+  background: linear-gradient(113.18deg, #015192 -9.35%, #00a5bc 87.94%);
+  border-radius: 30px;
+}

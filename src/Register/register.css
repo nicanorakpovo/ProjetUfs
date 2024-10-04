@@ -1,0 +1,167 @@
+.register{
+  background-image: url('../assets/image/Login.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -40px;
+}
+
+
+.Form {
+  /* Rectangle 2760 */
+  z-index: 98;
+  background: #FFF;
+  border-radius: 21px;
+  overflow: hidden;
+}
+
+/*import fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+
+/* Heading */
+.Title {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* color */
+  color: #2e2e2e;
+}
+.info_after_title {
+  /* Supporting text */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  text-align: center;
+
+  /* Text Placholder color */
+  color: #888888;
+}
+
+.connection_option {
+  /* Text */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  /* color */
+  color: #2e2e2e;
+}
+.Se_connecter {
+  font-weight: 600;
+}
+
+.Name .Id .Num .Birth_date .Country_name .Conditions_termes{
+  /* Full Name */
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  /* color */
+  color: #2e2e2e;
+}
+.btn_next{
+height: 60px;
+border-radius: 74px;
+background: linear-gradient(113.18deg, #015192 -9.35%, #00A5BC 87.94%);
+border: solid 0px;
+color: white;
+}
+.form-group{
+    margin-bottom: 3%;
+}
+input, .select{
+    height: 52px;
+}
+.background-two_man{
+
+    top: 57%;
+    right: 7%;
+    /* left: 40%;
+    top: 93%;
+    max-height: 70vh;
+    width: auto;
+    object-fit: contain;
+    bottom: 0; */
+    z-index: 1;
+ 
+}
+/* .Two_man{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 24%;
+    margin-right: 5%;
+} */
+.Two_man img{
+    /* height: 131%; */
+    height: 100%;
+    width: 100%;/* Distance par rapport à la droite */
+    z-index: 3;
+}
+/* @media (max-width: 768px) {
+    .Two_man{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 41%;
+        margin-right: 20%;
+    }
+    .Two_man img{
+        width: 150%;
+    } */
+    /* .background-two_man{
+
+        top: 93%;
+        right: 5%;
+        
+        z-index: 1;
+     
+    }
+    .background-two_man img{
+       
+        width: 130%;
+    }
+   
+  }
+  @media (max-width: 1024px) {
+    .Two_man{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 41%;
+        margin-right: 20%;
+    }
+    .Two_man img{
+        width: 150%;
+    }
+    .background-two_man{
+
+        top: 93%;
+        right: 5%; */
+/*         
+        z-index: 1;
+     
+    }
+    .background-two_man img{
+        
+        width: 130%;
+    }
+    
+  }*/
